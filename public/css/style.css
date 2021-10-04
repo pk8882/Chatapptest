@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+height:100vh;
+width:100vw;
+box-sizing:boder-box;
+display:grid;
+place-items: center;
+background-color: #2090ea;
+}
+.contianer{
+height:80vh;
+width: 80vw;
+box-sizing:boder-box;
+background-color: #e5e7e9;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.274);
+position: relative;
+display: flex;
+flex-direction: column;
+overflow: auto;
+}
+.contianer nav{
+    height: 10vh;
+    width: 100%;
+    background: #2090ea;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.274);
+}
+.contianer nav img{
+    height: 80%;
+    width: auto;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.contianer nav h1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #f2f2f2;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+textarea{
+    z-index: 2;
+    position: absolute;
+    left: 10%;
+    top:80%;
+    width: 80%;
+    height: 9%;
+    font-size: 15px;
+    text-align: left;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    bottom: 0%;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.342);
+}
+.message{
+    background:rgb(78, 11, 235);
+    border-radius: 6px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+
+}
+.message p{
+    font-family: sans-serif;
+    font-size: small;
+    color: #dddfe0;
+    text-align: left;
+    
+}
+.message h4{
+    font-size: 12px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    top: -80%;
+    margin-left: 250px;
+}
+.outgoing{
+    position: relative;
+    left: 50%;
+    background:rgb(114, 64, 230)
+}
+
+button{
+    height: 40px;
+    width: 40px;
+    background: rgb(78, 11, 235);
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    /* display: block; */
+    color: aliceblue;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-right: 20.5%;
+    margin-bottom: 2px;
+}
